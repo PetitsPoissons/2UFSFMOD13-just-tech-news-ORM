@@ -1,0 +1,30 @@
+{
+	"name": "2ufsfmod13-just-tech-news-orm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"watch": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PetitsPoissons/2UFSFMOD13-just-tech-news-ORM.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/PetitsPoissons/2UFSFMOD13-just-tech-news-ORM/issues"
+	},
+	"homepage": "https://github.com/PetitsPoissons/2UFSFMOD13-just-tech-news-ORM#readme",
+	"devDependencies": {
+		"dotenv": "^12.0.4",
+		"nodemon": "^2.0.15"
+	},
+	"dependencies": {
+		"express": "^4.17.2",
+		"mysql2": "^2.3.3",
+		"sequelize": "^6.13.0"
+	}
+}
